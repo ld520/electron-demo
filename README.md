@@ -23,6 +23,10 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 git clone https://github.com/electron/electron-quick-start
 # Go into the repository
 cd electron-quick-start
+# Install bower
+npm install bower
+# Install bootstrap
+bower install bootstrap
 # Install dependencies
 npm install
 # Run the app
