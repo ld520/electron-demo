@@ -13,7 +13,7 @@ let mainWindow
 
 function createWindow () {
   // 创建一个浏览器窗口
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 1200, height: 951})
 
   // 加载应用的index.html
   mainWindow.loadURL(url.format({
@@ -23,7 +23,7 @@ function createWindow () {
   }))
 
   // 打开开发工具
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   // 当window被关闭， 这个事件会被发出
   mainWindow.on('closed', function () {
